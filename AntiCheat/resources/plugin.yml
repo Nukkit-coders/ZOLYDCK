@@ -1,0 +1,53 @@
+name: ZAC
+main: me.Zolydck.AntCheat.AntiCheat
+version: 0.0.1
+load: STARTUP
+enable: STARTUP
+author: mathh40
+api: ["1.0.0"]
+commands:
+      zolydckanticheat:
+           description: Shows ShadowAntiCheat version
+           aliases: ["Zolydckanticheat","AntiCheat","ZAC"]
+      zac:
+           description: Shows ShadowAntiCheat version
+           aliases: ["Zolydckanticheat","AntiCheat","ZAC"]
+permissions:
+    legitop:
+        description: "A permission."
+        default: false
+    zac:
+        description: "Allows to use all zac features."
+        default: false
+        children:
+            zac.admin:
+                description: "Get notified when someone is hacking."
+                default: op
+            zac.fly:
+                description: "A permission."
+                default: false
+            zac.glide:
+                description: "A permission."
+                default: false
+            zac.speed:
+                description: "A permission."
+                default: false
+            zac.noclip:
+                description: "A permission."
+                default: false
+            zac.reach:
+                description: "A permission."
+                default: false
+            zac.instantkill:
+                description: "A permission."
+                default: false
+            zac.killaura:
+                description: "A permission."
+                default: false
+            zac.regen:
+                description: "A permission."
+                default: false
+            zac.forcegamemode:
+                description: "A permission."
+                default: false
+
